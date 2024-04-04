@@ -1,4 +1,5 @@
 import * as api from '@/api/server'
+
 import { redirect } from 'next/navigation';
 
 const Page = async()=>{
@@ -8,6 +9,7 @@ const Page = async()=>{
     return (
         <div>
             Painel ADM
+
         </div>
     );
 };
